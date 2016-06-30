@@ -1,0 +1,45 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/bg-10.jpg');
+    background-attachment: fixed;
+}
+table{
+    background-color: #FFFFCC;
+    align: centre;
+    width: 100%;
+    
+}
+
+.jumbotron{
+  
+   background-color: rgba(3, 1, 1, 0.65); 
+   color: #fff;
+   font-weight:100; 
+}
+td{
+    padding: 10px
+}
+.selected{
+    background-color: #CCFF33;
+}
+.panel-default{
+    background-color: rgba(3, 1, 1, 0.65); 
+}
+
+
+
+.a{
+    background: none; 
+}
+
+
+
+
+
+
+
