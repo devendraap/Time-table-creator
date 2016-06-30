@@ -522,7 +522,7 @@ function check(){
     
     
     if($(".L31T").val() !== "" || $(".L44T").val() !== ""){
-        $(".A2T").hide(); $(".A1S").hide();
+        $(".A2T").hide(); $(".A2S").hide();
     }else{
         $(".A2T").show(); $(".A2S").show();
     };
@@ -538,7 +538,7 @@ function check(){
     };
     
      if($(".L37T").val() !== "" || $(".L50T").val() !== ""){
-        $(".B2T").hide(); $(".B1S").hide();
+        $(".B2T").hide(); $(".B2S").hide();
     }else{
         $(".B2T").show(); $(".B2S").show();
     };
@@ -555,7 +555,7 @@ function check(){
     
     
     if($(".L43T").val() !== "" || $(".L56T").val() !== ""){
-        $(".C2T").hide(); $(".C1S").hide();
+        $(".C2T").hide(); $(".C2S").hide();
     }else{
         $(".C2T").show(); $(".C2S").show();
     };
@@ -571,7 +571,7 @@ function check(){
     };
     
     if($(".L33T").val() !== "" || $(".L49T").val() !== ""){
-        $(".D2T").hide(); $(".D1S").hide();
+        $(".D2T").hide(); $(".D2S").hide();
     }else{
         $(".D2T").show(); $(".D2S").show();
     };
@@ -587,7 +587,7 @@ function check(){
     };
     
     if($(".L39T").val() !== "" || $(".L55T").val() !== ""){
-        $(".E2T").hide(); $(".E1S").hide();
+        $(".E2T").hide(); $(".E2S").hide();
     }else{
         $(".E2T").show(); $(".E2S").show();
     };
@@ -598,7 +598,7 @@ function check(){
     };
     
     if($(".L32T").val() !== "" || $(".L45T").val() !== ""){
-        $(".F2T").hide(); $(".F1S").hide();
+        $(".F2T").hide(); $(".F2S").hide();
     }else{
         $(".F2T").show(); $(".F2S").show();
     };
@@ -609,7 +609,7 @@ function check(){
     };
     
     if($(".L38T").val() !== "" || $(".L51T").val() !== ""){
-        $(".G2T").hide(); $(".G1S").hide();
+        $(".G2T").hide(); $(".G2S").hide();
     }else{
         $(".G2T").show(); $(".G2S").show();
     };
