@@ -1,4 +1,4 @@
-$(".scratchpad").draggable({ cancel: null });
+
 function updateA1(){
         
     $(".A1").html($(".A1T").val());
