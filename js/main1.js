@@ -810,7 +810,7 @@ $("input").keyup(function(){
 
 if(typeof(Storage) !== "undefined") {
     if (sessionStorage.L31T) {
-        $(".L31").html() === sessionStorage.L31T;
+        $(".L31").html(sessionStorage.L31T);
     }
     
 }
