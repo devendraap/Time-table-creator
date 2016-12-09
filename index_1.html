@@ -16,7 +16,6 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -44,10 +43,10 @@
         <div class="jumbotron">
             <div class="container">
                 <h1>Hello, VITian!</h1>
-                <p>This is a simple tool to create timetable. First fill all the THEORY slots and then LAB slots.</p>
+                <p>This is a simple tool to create timetable. First fill all the THEORY slots and then LAB slots. <br>You can also save the generated time table!</p>
                
                    
-                <p class="col-lg-offset-6">- by <a style="color: white" href="https://www.facebook.com/vbcvit/"> Visual Bloggers' Club, VIT</a> <br><a style="color: white" href="https://www.facebook.com/devendraparhate">Devendra Parhate  </a></p>
+                <p class="col-lg-offset-6 text-center">- by <a style="color: white" href="https://www.facebook.com/vbcvit/"> Visual Bloggers' Club, VIT</a> <br><a style="color: white" href="https://www.facebook.com/devendraparhate">Devendra Parhate  </a></p>
                 <br>
                 <div class="fb-like" data-href="https://www.facebook.com/ffcstimetablecreator/" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div><br><span class="glyphicon glyphicon-phone" > </span><a href="whatsapp://send?text=https://devendraap.github.io/Time-table-creator/" data-action="share/whatsapp/share"> <span class="glyphicon glyphicon"></span> Share via Whatsapp</a>
                 
@@ -60,7 +59,7 @@
             <div class="row">
                 <div class="col-lg-12" style="background-color:#f5f5f5; margin-bottom: 5px" >
                 <div class="col-lg-12" >
-                    <iframe src="https://docs.google.com/spreadsheets/d/1LLKBDm5ANt3ICex4RkSZE8tjiSUVJndqfwA5dbV2uug/edit?usp=sharing" width="100%" height="480"></iframe>
+                    <iframe src="https://docs.google.com/spreadsheets/d/1LLKBDm5ANt3ICex4RkSZE8tjiSUVJndqfwA5dbV2uug/edit?usp=sharing&rm=minimal" width="100%" height="480"></iframe>
                 </div> 
 <!--                <div class="col-lg-4" style="background-color:#f5f5f5;"  > 
                     <div class="form-group">
@@ -148,26 +147,46 @@
                                 <div class="col-md-2">                            <input placeholder="Subject for G1/TG1" class="form-control G1T" type="text"> </div>
                             </div>
                         <div class="col-sm-12 h4 " style="color:#fff"> <span class="glyphicon glyphicon-arrow-down"></span> Lab slots </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L1 & L2" class="form-control L1T L2T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L3 & L4" class="form-control L3T L4T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L5 & L6" class="form-control L5T L6T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L7 & L8" class="form-control L7T L8T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L9 & L10" class="form-control L9T L10T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L11 & L12" class="form-control L11T L12T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L13 & L14" class="form-control L13T L14T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L15 & L16" class="form-control L15T L16T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L17 & L18" class="form-control L17T L18T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L19 & L20" class="form-control L19T L20T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L21 & L22" class="form-control L21T L22T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L23 & L24" class="form-control L23T L24T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L25 & L26" class="form-control L25T L26T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L27 & L28" class="form-control L27T L28T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L29 & L30" class="form-control L29T L30T" type="text"> </div>
+                                                        <div class="col-md-2">                            <input placeholder="Subject for L1" class="form-control L1T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L2" class="form-control L2T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L3" class="form-control L3T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L4" class="form-control L4T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L5" class="form-control L5T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L6" class="form-control L6T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L7" class="form-control L7T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L8" class="form-control L8T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L9" class="form-control L9T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L10" class="form-control L10T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L11" class="form-control L11T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L12" class="form-control L12T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L13" class="form-control L13T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L14" class="form-control L14T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L15" class="form-control L15T" type="text"> </div>
+<!--                            <div class="col-md-2">                            <input placeholder="Subject for L16" class="form-control L16T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L17" class="form-control L17T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L18" class="form-control L18T" type="text"> </div>-->
+                            <div class="col-md-2">                            <input placeholder="Subject for L19" class="form-control L19T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L20" class="form-control L20T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L21" class="form-control L21T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L22" class="form-control L22T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L23" class="form-control L23T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L24" class="form-control L24T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L25" class="form-control L25T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L26" class="form-control L26T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L27" class="form-control L27T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L28" class="form-control L28T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L29" class="form-control L29T" type="text"> </div>
+                            <div class="col-md-2">                            <input placeholder="Subject for L30" class="form-control L30T" type="text"> </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12" >
-                    <table class="table-responsive" border="1" >
+                <div class="col-lg-10 sec1 ">
+                    <style>
+                        .selected{
+                            background-color: #CCFF33;
+                        }
+                    </style>
+                    <table class="table-responsive" border="1" bgcolor="#FFFFCC" style="border-collapse: collapse; padding:10px; text-align: center; font-family: arial; border: 1px solid #ddd; font-size: 14px; line-height: 1.42857143; color: #333;">
                         <tbody><tr >
                                 <td  bgcolor="#C0C0C0"><b>THEORY HOURS</b></td>
                                 <td  bgcolor="#CCCCFF"><b>08:00AM<br>to<br>08:50AM</b></td>
@@ -290,10 +309,21 @@
                             
                             </tr>
                         </tbody></table>
+                    
                 </div>
-                
+                <div class="col-lg-2" style="padding-top: 15px">
+                    <div class="alert alert-success alert-dismissible col-lg-12 hidden msg">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        Successfully! Recovered created time table.
+                    </div>  
+                    
+                    <button class="col-lg-12 btn  btn-default pull-right downloadsave" >
+                        <span class="glyphicon glyphicon-save"></span> Download/Save Timetable
+                    </button>
+                    
+                </div>
                 <div class="col-lg-12">
-                    <div style="background-color: rgba(3, 1, 1, 0.65); padding-bottom: 15px ;" class="row">
+                    <div class="row" style="background-color: rgba(3, 1, 1, 0.65); padding-bottom: 15px ;" >
                         <div class="panel-default a" >
 
 
@@ -380,23 +410,38 @@
                             <div class="col-md-2">                            <input placeholder="Subject for G2/G2T" class="form-control G2T" type="text"> </div>
                         </div>                        
                         <div class="col-sm-12 h4 " style="color:#fff"> <span class="glyphicon glyphicon-arrow-down"></span> Lab slots </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L31 & L32" class="form-control L31T L32T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L33 & L34" class="form-control L33T L34T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L35 & L36" class="form-control L35T L36T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L37 & L38" class="form-control L37T L38T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L39 & L40" class="form-control L39T L40T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L41 & L42" class="form-control L41T L42T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L43 & L44" class="form-control L43T L44T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L45 & L46" class="form-control L45T L46T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L47 & L48" class="form-control L47T L48T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L49 & L50" class="form-control L49T L50T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L51 & L52" class="form-control L51T L52T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L53 & L54" class="form-control L53T L54T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L55 & L56" class="form-control L55T L56T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L57 & L58" class="form-control L57T L58T" type="text"> </div>
-                            <div class="col-md-2">                            <input placeholder="Subject for L59 & L60" class="form-control L59T L60T" type="text"> </div>
 
-                    
+                        <div class="col-md-2">                            <input placeholder="Subject for L31" class="form-control L31T " type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L32" class="form-control L32T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L33" class="form-control L33T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L34" class="form-control L34T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L35" class="form-control L35T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L36" class="form-control L36T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L37" class="form-control L37T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L38" class="form-control L38T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L39" class="form-control L39T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L40" class="form-control L40T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L41" class="form-control L41T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L42" class="form-control L42T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L43" class="form-control L43T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L44" class="form-control L44T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L45" class="form-control L45T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L46" class="form-control L46T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L47" class="form-control L47T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L48" class="form-control L48T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L49" class="form-control L49T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L50" class="form-control L50T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L51" class="form-control L51T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L52" class="form-control L52T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L53" class="form-control L53T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L54" class="form-control L54T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L55" class="form-control L55T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L56" class="form-control L56T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L57" class="form-control L57T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L58" class="form-control L58T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L59" class="form-control L59T" type="text"> </div>
+                        <div class="col-md-2">                            <input placeholder="Subject for L60" class="form-control L60T" type="text"> </div>
+                            
                     </div>
                 </div>
                         
@@ -404,8 +449,8 @@
                 
                 
             </div>
-                
-                    
+               
+               
         </div>
         <footer style="background-color:#f5f5f5; margin: -15px; padding-bottom: 40px" class="text-center">
             <div class="fb-comments" data-href="https://devendraap.github.io/Time-table-creator/" data-numposts="10"></div>
@@ -417,28 +462,26 @@
     <!-- /container -->  </div>      
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
-    <script src="http://files.codepedia.info/uploads/iScripts/html2canvas.js"></script>
-
+    <script>
+        if(typeof(Storage) !== "undefined") {
+             
+            if (sessionStorage.sec1) {
+                $(".sec1").html(String(sessionStorage.sec1));
+                $(".msg").removeClass("hidden");
+            }
+        } 
+        $('.downloadsave').on('click', function(){
+            $('<a />').attr({
+                   download: 'Timetable.html', 
+                   href: "data:text/html," + "<h4> <a href=\"www.ffcs.ml\"> Generated by FFCS Time Table Creator Tool! </a> <h4><br>" + $('.sec1').html() 
+            })[0].click();
+            
+        });
+    </script>
     <script src="js/vendor/bootstrap.min.js"></script>
 
-    <script src="js/main1.js"></script>
+    <script src="js/main.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function (b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                    function () {
-                        (b[l].q = b[l].q || []).push(arguments)
-                    });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = '//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X', 'auto');
-        ga('send', 'pageview');
-    </script>
+   
 </body>
 </html>
