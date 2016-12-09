@@ -799,6 +799,9 @@ function check(){
     
     if($(".L60").html() === ""){ $(".L60").removeClass("selected").html("L60");}
     else if($(".L60").html() !=="L60"){ $(".L60").addClass("selected"); };
+    
+    sessionStorage.L31T = $(".L31").html();
+    
 };
 
 $("select").change(function(){
@@ -809,6 +812,7 @@ $("input").keyup(function(){
 });
 
 if(typeof(Storage) !== "undefined") {
+    
     if (sessionStorage.L31T) {
         $(".L31").html(sessionStorage.L31T);
     }
