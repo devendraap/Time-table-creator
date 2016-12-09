@@ -1,3 +1,4 @@
+
 function updateA1(){
         
     $(".A1").html($(".A1T").val());
@@ -130,11 +131,10 @@ function updateF1(){
         $(".TF1").html("");
         $(".L28T").fadeIn();
     }
-    if($(".F1T").val() == ""){
+    if($(".F1T").val() === ""){
         $(".L2T").fadeIn();
         $(".L15T").fadeIn();
     }else{
-        
         $(".L2T").fadeOut();
         $(".L15T").fadeOut();
     }
@@ -494,7 +494,7 @@ function check(){
         $(".TE1O").show();
     };
     
-    if($(".L2T").val() !== "" || $(".L15T").val() !== ""){
+    if($(".L2T").val() !== ""){
         $(".F1T").hide(); $(".F1S").hide();
     }else{
         $(".F1T").show(); $(".F1S").show();
@@ -575,7 +575,7 @@ function check(){
     }else{
         $(".D2T").show(); $(".D2S").show();
     };
-    if($(".L4657T").val() !== "" || $(".L59T").val() !== "" ){
+    if($(".L57T").val() !== "" || $(".L59T").val() !== "" ){
         $(".TDD2O").hide(); 
     }else{
         $(".TDD2O").show();
@@ -798,6 +798,9 @@ function check(){
     
     if($(".L60").html() === ""){ $(".L60").removeClass("selected").html("L60");}
     else if($(".L60").html() !=="L60"){ $(".L60").addClass("selected"); };
+    
+    
+    sessionStorage.sec1 = $(".sec1").html();
 };
 
 $("select").change(function(){
