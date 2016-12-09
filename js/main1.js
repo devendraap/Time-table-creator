@@ -800,7 +800,9 @@ function check(){
     if($(".L60").html() === ""){ $(".L60").removeClass("selected").html("L60");}
     else if($(".L60").html() !=="L60"){ $(".L60").addClass("selected"); };
     
-    sessionStorage.L31T = $(".L31").html();
+    if(typeof(Storage) !== "undefined") {
+        sessionStorage.L31T = $(".L31").html();
+    }
     
 };
 
