@@ -460,13 +460,13 @@ function check(){
     }else{
         $(".C1T").show(); $(".C1S").show();
     };
-    if($(".L10T").val() !== "" || $(".L23T").val() !== ""){
+    if($(".L10T").val() !== ""){
         $(".TC1O").hide();
     }else{
         $(".TC1O").show();
     };
     
-    if($(".L10T").val() !== "" ){
+    if($(".L10T").val() !== "" || $(".L23T").val() !== ""){
         $(".TCC1O").hide();
     }else{
         $(".TCC1O").show();
