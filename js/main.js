@@ -809,3 +809,4 @@ $("select").change(function(){
 $("input").keyup(function(){
    check(); 
 });
+ 
