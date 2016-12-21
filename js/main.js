@@ -465,7 +465,7 @@ function check(){
     }else{
         $(".TCC1O").show();
     };
-    if($(".L23T").val() !== "" ){
+    if($(".L10T").val() !== "" ){
         $(".TC1O").hide();
     }else{
         $(".TC1O").show();
