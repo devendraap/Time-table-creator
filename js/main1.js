@@ -461,14 +461,15 @@ function check(){
         $(".C1T").show(); $(".C1S").show();
     };
     if($(".L10T").val() !== "" || $(".L23T").val() !== ""){
-        $(".TCC1O").hide();
-    }else{
-        $(".TCC1O").show();
-    };
-    if($(".L23T").val() !== "" ){
         $(".TC1O").hide();
     }else{
         $(".TC1O").show();
+    };
+    
+    if($(".L23T").val() !== "" ){
+        $(".TCC1O").hide();
+    }else{
+        $(".TCC1O").show();
     };
     
     if($(".L19T").val() !== "" || $(".L3T").val() !== ""){
