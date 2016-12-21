@@ -531,7 +531,7 @@ function check(){
     }else{
         $(".TAA2O").show();
     };
-    if($(".L41T").val() !== "" ){
+    if($(".L57T").val() !== "" ){
         $(".TA2O").hide();
     }else{
         $(".TA2O").show();
@@ -547,7 +547,7 @@ function check(){
     }else{
         $(".TBB2O").show();
     };
-    if($(".L47T").val() !== "" ){
+    if($(".L34T").val() !== "" ){
         $(".TB2O").hide();
     }else{
         $(".TB2O").show();
@@ -564,7 +564,7 @@ function check(){
     }else{
         $(".TCC2O").show();
     };
-    if($(".L53T").val() !== "" ){
+    if($(".L40T").val() !== "" ){
         $(".TC2O").hide();
     }else{
         $(".TC2O").show();
@@ -575,12 +575,12 @@ function check(){
     }else{
         $(".D2T").show(); $(".D2S").show();
     };
-    if($(".L57T").val() !== "" || $(".L59T").val() !== "" ){
+    if($(".L46T").val() !== "" || $(".L59T").val() !== "" ){
         $(".TDD2O").hide(); 
     }else{
         $(".TDD2O").show();
     };
-    if($(".L59T").val() !== "" ){
+    if($(".L46T").val() !== "" ){
         $(".TD2O").hide();
     }else{
         $(".TD2O").show();
