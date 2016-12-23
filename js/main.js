@@ -828,4 +828,9 @@ $("select").change(function(){
 $("input").keyup(function(){
    check(); 
 });
- 
+
+function myConfirmation() {
+    return "You can SAVE the created Time Table.\n Are you sure you want to quit? www.ffcs.ml";
+}
+
+window.onbeforeunload = myConfirmation;
