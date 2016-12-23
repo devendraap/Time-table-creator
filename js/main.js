@@ -9,6 +9,7 @@ function updateA1(){
     }else{
         $(".TAA1").html("");
         $(".L11T").fadeIn();
+        $(".L11").html($(".L11T").val());
     }
     if(($(".A1S").val() === "A1 + TA1" || $(".A1S").val() === "A1 + TA1 + TAA1" )&& ($(".A1T").val() != "")){
         $(".TA1").html($(".A1T").val());
@@ -16,6 +17,7 @@ function updateA1(){
     }else{
         $(".TA1").html("");
         $(".L27T").fadeIn();
+        $(".L27").html($(".L27T").val());
     }
     
     if($(".A1T").val() === ""){
@@ -38,7 +40,7 @@ function updateB1(){
     }else{
         $(".TB1").html("");
         $(".L4T").fadeIn();
-    
+        $(".L4").html($(".L4T").val());
     }
     if($(".B1T").val() === ""){
         $(".L7T").fadeIn();
@@ -59,6 +61,7 @@ function updateC1(){
     }else{
         $(".TCC1").html("");
         $(".L23T").fadeIn();
+        $(".L23").html($(".L23T").val());
     }
     
     if(($(".C1S").val() === "C1 + TC1" || $(".C1S").val() === "C1 + TC1 + TCC1") && $(".C1T").val() != ""){
@@ -68,7 +71,7 @@ function updateC1(){
     }else{
         $(".TC1").html("");
         $(".L10T").fadeIn();
-
+        $(".L10").html($(".L10T").val());
     }
     if($(".C1T").val() === ""){
         $(".L13T").fadeIn();
@@ -90,6 +93,7 @@ function updateD1(){
     }else{
         $(".TD1").html("");
         $(".L29T").fadeIn();
+        $(".L29").html($(".L29T").val());
     }
     if($(".D1T").val() == ""){
         $(".L3T").fadeIn();
@@ -110,6 +114,7 @@ function updateE1(){
     }else{
         $(".TE1").html("");
         $(".L22T").fadeIn();
+        $(".L22").html($(".L22T").val());
     }
     if($(".E1T").val() == ""){
         $(".L9T").fadeIn();
@@ -130,6 +135,7 @@ function updateF1(){
     }else{
         $(".TF1").html("");
         $(".L28T").fadeIn();
+        $(".L28").html($(".L28T").val());
     }
     if($(".F1T").val() === ""){
         $(".L2T").fadeIn();
@@ -151,6 +157,7 @@ function updateG1(){
     }else{
         $(".TG1").html("");
         $(".L5T").fadeIn();
+        $(".L5").html($(".L5T").val());
     }
     if($(".G1T").val() == ""){
         $(".L8T").fadeIn();
@@ -170,6 +177,7 @@ function updateA2(){
     }else{
         $(".TAA2").html("");
         $(".L41T").fadeIn();
+        $(".L41").html($(".L41T").val());
     }
     
     if(($(".A2S").val() == "A2 + TA2" || $(".A2S").val() == "A2 + TA2 + TAA2") && $(".A2T").val() != ""){
@@ -178,6 +186,7 @@ function updateA2(){
     }else{
         $(".TA2").html("");
         $(".L57T").fadeIn();
+        $(".L57").html($(".L57T").val());
     }
     if($(".A2T").val() == "" ){
         $(".L31T").fadeIn();
@@ -197,6 +206,7 @@ function updateB2(){
     }else{
         $(".TBB2").html("");
         $(".L47T").fadeIn();
+        $(".L47").html($(".L47T").val());
     }
 
     if(($(".B2S").val() == "B2 + TB2" || $(".B2S").val() == "B2 + TB2 + TBB2" ) && $(".B2T").val() != ""){
@@ -205,6 +215,7 @@ function updateB2(){
     }else{
         $(".TB2").html("");
         $(".L34T").fadeIn();
+        $(".L34").html($(".L34T").val());
     }
     if($(".B2T").val() == ""){
         $(".L37T").fadeIn();
@@ -224,6 +235,7 @@ function updateC2(){
     }else{
         $(".TCC2").html("");
         $(".L53T").fadeIn();
+        $(".L53").html($(".L53T").val());
     }
 
     if(($(".C2S").val() == "C2 + TC2" || $(".C2S").val() == "C2 + TC2 + TCC2"  ) && $(".C2T").val() != ""){
@@ -232,6 +244,7 @@ function updateC2(){
     }else{
         $(".TC2").html("");
         $(".L40T").fadeIn();
+        $(".L40").html($(".L40T").val());
     }
     if($(".C2T").val() == ""){
         $(".L43T").fadeIn();
@@ -251,6 +264,7 @@ function updateD2(){
     }else{
         $(".TDD2").html("");
         $(".L59T").fadeIn();
+        $(".L59").html($(".L59T").val());
     }
     
     if(($(".D2S").val() == "D2 + TD2" || $(".D2S").val() == "D2 + TD2 + TDD2" ) && $(".D2T").val() != ""){
@@ -259,6 +273,7 @@ function updateD2(){
     }else{
         $(".TD2").html("");
         $(".L46T").fadeIn();
+        $(".L46").html($(".L46T").val());
     }
     if($(".D2T").val() == ""){
         
@@ -280,6 +295,7 @@ function updateE2(){
     }else{
         $(".TE2").html("");
         $(".L52T").fadeIn();
+        $(".L52").html($(".L52T").val());
     }
     if($(".E2T").val() == ""){
         $(".L55T").fadeIn();
@@ -300,6 +316,7 @@ function updateF2(){
     }else{
         $(".TF2").html("");
         $(".L58T").fadeIn();
+        $(".L58").html($(".L58T").val());
     }
     if($(".F2T").val() == ""){
         $(".L32T").fadeIn();
@@ -320,6 +337,7 @@ function updateG2(){
     }else{
         $(".TG2").html("");
         $(".L35T").fadeIn();
+        $(".L35").html($(".L35").val());
     }
     if($(".G2T").val() == ""){
         $(".L38T").fadeIn();
@@ -559,16 +577,17 @@ function check(){
     }else{
         $(".C2T").show(); $(".C2S").show();
     };
-    if($(".L40T").val() !== "" || $(".L53T").val() !== "" ){
-        $(".TCC2O").hide(); 
-    }else{
-        $(".TCC2O").show();
-    };
     if($(".L40T").val() !== "" ){
         $(".TC2O").hide();
     }else{
         $(".TC2O").show();
     };
+    if($(".L40T").val() !== "" || $(".L53T").val() !== "" ){
+        $(".TCC2O").hide(); 
+    }else{
+        $(".TCC2O").show();
+    };
+    
     
     if($(".L33T").val() !== "" || $(".L49T").val() !== ""){
         $(".D2T").hide(); $(".D2S").hide();
