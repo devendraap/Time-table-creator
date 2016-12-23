@@ -62,10 +62,19 @@
             
             <!-- Row of columns -->
             <div class="row">
-                <div class="col-lg-12" style="background-color:#f5f5f5; margin-bottom: 5px" >
-                <div class="col-lg-12" style="background-color:#f5f5f5;"  >
-                    <iframe src="https://docs.google.com/spreadsheets/d/1z8KoF71Ib0-vrYQ9jmdSZ_kBstZi1Ys37BspIxcUWcE/pubhtml?widget=true&amp;headers=false" width="100%" height="520"></iframe>
-                    <p> <span class="glyphicon glyphicon-hand-right"></span> Use CTRL + F to find courses in sheet </p>
+                <div class="col-lg-12" style="margin-bottom: 5px" >                    
+                            <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                            <h3 class="panel-title">Course allocation report</h3>
+                                            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+                                    </div>
+                                    <div class="panel-body">
+                                    <iframe src="https://docs.google.com/spreadsheets/d/1z8KoF71Ib0-vrYQ9jmdSZ_kBstZi1Ys37BspIxcUWcE/pubhtml?widget=true&amp;headers=false" width="100%" height="520"></iframe>
+                                    <p style="color: rgb(255, 255, 255);"> <span class="glyphicon glyphicon-hand-right"></span> Use CTRL + F to find courses in sheet </p>
+
+                                    </div>
+                            </div>
+                    
                 </div> 
 <!--            <div class="col-lg-4" style="background-color:#f5f5f5;"  > 
                     <div class="form-group">
@@ -73,7 +82,7 @@
                      <textarea class="form-control" rows="22" placeholder="Scratchpad"></textarea>
                    </div>
                  </div> -->
-                </div>
+                
               
                 <div class="col-lg-12">
 
@@ -330,8 +339,9 @@
                     
                 </div>
                 <div class="col-lg-12">
-                    <div class="row" style="background-color: rgba(3, 1, 1, 0.65); padding-bottom: 15px ;" >
-                        <div class="panel-default a" >
+                    
+                    <div class="row" style="margin-right: 0px;margin-left: 0px;background-color: rgba(3, 1, 1, 0.65);  padding: 0 0px;" >
+                        <div class="panel-default a" style="padding: 0 0px;" >
 
 
                         <div class="panel-heading"> Evening slots ( First fill all the THEORY slots and then LAB slots. )</div>
@@ -452,11 +462,21 @@
                     </div>
                 </div>
                         
-                    <br>
-                
-                
+                <br>
+               
+                <div class="panel panel-default ">
+                        <div class="panel-heading ">
+                                <h3 class="panel-title">Course allocation report</h3>
+                                <span class="pull-right clickable panel-collapsed"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                        </div>
+                        <div class="panel-body" style="display: none;">
+                        <iframe src="https://docs.google.com/spreadsheets/d/1z8KoF71Ib0-vrYQ9jmdSZ_kBstZi1Ys37BspIxcUWcE/pubhtml?widget=true&amp;headers=false" width="100%" height="520"></iframe>
+                        <p style="color: rgb(255, 255, 255);"> <span class="glyphicon glyphicon-hand-right"></span> Use CTRL + F to find courses in sheet </p>
+
+                        </div>
+                </div>
             </div>
-            <div id="img-out" class=""></div> 
+            
                 
         </div>
         <footer style="background-color:#f5f5f5; margin: -15px; padding-bottom: 40px; font-weight: 100;" class="text-center">
@@ -493,6 +513,14 @@
             })[0].click();
             	
         });
+        window.parent.document.title = "FFCS Time Table Tool -  Visual Bloggers' Club, VIT";
+        (function() {
+            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'shortcut icon';
+            link.href = 'https://devendraap.github.io/Time-table-creator/favicon.png';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }());
     </script>
     <script src="js/vendor/bootstrap.min.js"></script>
 
